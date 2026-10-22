@@ -233,7 +233,7 @@ elif page == "Summary":
             with st.spinner("Summarizing..."):
                 st.markdown(summarize_policy(get_summary_text(choice)))
         except Exception as e:
-            st.error(f"Could not summarize right now. Please try again in a minute. ({e})")
+            st.exception(e)
 
 elif page == "Ask Questions":
     st.header("Ask a question")
