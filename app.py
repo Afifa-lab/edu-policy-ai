@@ -12,9 +12,9 @@ from src.theme import apply_theme
 POLICY_DIR = "data/policies"
 
 # ---- EDIT THESE THREE LINES with your real details ----
-STUDENT_NAME = "Your Name"
-CLASS_NAME = "Your Class"
-GUIDE_NAME = "Guide Name"
+STUDENT_NAME = "Afifa"
+CLASS_NAME = "Prompt Engineering and LLM Application Development"
+GUIDE_NAME = "Dr. M. Vijay"
 # --------------------------------------------------------
 
 DEFAULT_COMPARE_TOPICS = (
