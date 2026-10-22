@@ -6,4 +6,7 @@ def load_and_chunk(pdf_path):
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=800, chunk_overlap=150
     )
-    return splitter.split_documents(docs)
+    chunks = splitter.split_documents(docs)
+    print("Document loaded:", len(doc))
+    print("Chunks, created:", len(chunks))
+    return chunks
