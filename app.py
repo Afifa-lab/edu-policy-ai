@@ -22,7 +22,7 @@ DEFAULT_COMPARE_TOPICS = (
     "learning, flexibility, funding and cost"
 )
 
-st.set_page_config(page_title="Education Policy Intelligence", layout="wide")
+st.set_page_config(page_title="PolicyWise AI", layout="wide")
 apply_theme()
 st.markdown(
     """<style>
